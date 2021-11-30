@@ -1,0 +1,12 @@
+/*limpar as configurações dos estilos*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'RobotoMono';
+}
+
+html, body {
+    height: 100%;
+}

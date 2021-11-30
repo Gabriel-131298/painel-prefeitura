@@ -1,0 +1,45 @@
+div.flex-painel{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+sidebar{
+    display: block;
+    height: 100%;
+    width: 300px;
+    background-color: #fff;
+}
+
+sidebar .siderbar-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    height: 90px;
+    border: 1px solid rgba(0,0,0,.0625);
+    border-right: 0px;
+}
+
+sidebar .siderbar-title h2{
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+div.menu{
+    border-right: 1px solid rgba(0,0,0,.0625); 
+}
+
+div.menu ul{
+    list-style-type: none;
+}
+
+div.menu ul li{
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

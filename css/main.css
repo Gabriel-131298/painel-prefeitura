@@ -1,0 +1,56 @@
+main{
+    display: block;
+    height: 100%;
+    background-color:#f7f7f7;
+    width: calc(100% - 300px);
+}
+
+main .main-content {
+    padding: 30px;
+    width: 100%;
+    height: calc(100% - 90px);
+    overflow-y: auto;
+}
+
+.main-content .painel{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.painel-flex-parent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.painel-box{
+   display: flex;
+   flex-direction:column;
+   align-items: center;
+   justify-content: center;
+   width: 22%;
+   max-width: 350px;
+   height: 210px;
+   background-color: #2A8C99;
+}
+
+.painel-box:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 1rem rgba(156, 156, 156, 0.4);
+    transform: scale(1.05);
+}
+
+.painel-box a{
+    text-decoration: none;
+    color:black;
+}
+
+.painel-box a:hover{
+    color: #fff
+}
